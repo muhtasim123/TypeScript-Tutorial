@@ -21,3 +21,13 @@ let func: (f)=>void
 function func1 (x:number, y:number = 1){
     return x*2
 }
+
+
+//any turns type into a js type
+let js:any = "string"
+js = 10
+js = null
+js = {}
+
+let multiArr = ["string", 10]
+let multiArr2: (string | number)[]
