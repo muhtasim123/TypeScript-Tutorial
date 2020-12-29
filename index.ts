@@ -1,3 +1,5 @@
+import { Rabbit } from "./rabbit"
+
 let x:number = 5
 
 let y = 5
@@ -31,3 +33,9 @@ js = {}
 
 let multiArr = ["string", 10]
 let multiArr2: (string | number)[]
+
+let z: number & string
+
+let peterRabbit:Rabbit = new Rabbit()
+
+console.log(peterRabbit.sleep())
