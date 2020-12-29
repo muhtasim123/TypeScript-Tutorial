@@ -18,3 +18,6 @@ let un:undefined
 
 let func: (f)=>void
 
+function func1 (x:number, y:number = 1){
+    return x*2
+}
